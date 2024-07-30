@@ -4,7 +4,14 @@
     <div class="flex justify-center rounded-t-lg bg-sky-950 pb-4 pt-4 text-white">Messages</div>
     <div class="flex md:h-[50vh] lg:h-[50vh] h-96 rounded-b-lg">
       <div class="w-1/3 overflow-auto bg-indigo-700 text-white md:p-0 lg:p-0">
-        <div class="flex justify-center bg-indigo-200 p-2 text-xs text-black md:text-base lg:text-base">Message One</div>
+        <div class="flex justify-left bg-indigo-200 p-2 text-xs text-black md:text-base lg:text-base">
+          <div class="md:h-7 lg:h-7 md:w-7 lg:w-7 w-5 h-5 md:mr-3 lg:mr-3 mr-2 font-bold rounded-full bg-green-200 flex items-center justify-center ">
+            M
+          </div>
+          <p class="lg:text-base md:text-base text-xs truncate">
+            Maina Mwaura ffffff
+          </p>
+        </div>
         <div class="flex justify-center bg-indigo-700 p-2 text-xs text-white md:text-base lg:text-base">Message One</div>
         <div class="flex justify-center bg-indigo-700 p-2 text-xs text-white md:text-base lg:text-base">Message One</div>
         <div class="flex justify-center bg-indigo-700 p-2 text-xs text-white md:text-base lg:text-base">Message One</div>
@@ -16,15 +23,15 @@
         <div class="flex justify-center bg-indigo-700 p-2 text-xs text-white md:text-base lg:text-base">Message One</div>
       </div>
       <div class="flex w-2/3 flex-col items-center bg-indigo-200">
-        <div class="mt-8">
-          <img class="h-16 w-16 rounded-full" src="https://img.freepik.com/free-photo/businessman-wearing-suit-touching-red-boxing-gloves-hanging-from-his-neck_138670-211.jpg?t=st=1722005445~exp=1722009045~hmac=2a72dd0bf16d562da139a6523e8a603602ae29021b836fd9978f7efe52173cc7&w=1380" alt="" />
+        <div class="md:mt-8 lg:mt-8 mt-4">
+          <img class="md:h-16 lg:h-16 md:w-16 lg:w-16 w-8 h-8 rounded-full" src="https://img.freepik.com/free-photo/businessman-wearing-suit-touching-red-boxing-gloves-hanging-from-his-neck_138670-211.jpg?t=st=1722005445~exp=1722009045~hmac=2a72dd0bf16d562da139a6523e8a603602ae29021b836fd9978f7efe52173cc7&w=1380" alt="" />
         </div>
-        <div class="mt-2 text-center">
-          <p class="md:font-bold lg:font-bold">James Mwangi</p>
+        <div class="md:mt-2 lg:mt-2 mt-1 text-center mb-2">
+          <p class="md:font-bold lg:font-bold md:text-base lg:text-base text-sm">James Mwangi</p>
           <span class="text-xs md:text-sm lg:text-sm">Software Engineer</span>
         </div>
         <div class="overflow-auto w-3/4 bg-green-200">
-          <div class="ml-12 m-4 mt-4 rounded-md bg-lime-800 p-2 text-sm text-white">
+          <div class="md:m-4 ld:m-4 mr-2 mt-4 md:ml-12 lg:ml-12 ml-5 rounded-md bg-lime-800 p-2 md:text-sm lg:text-sm text-xs text-white">
             <p>Messa geMessag eMe ssageMessag eMessa geMessag eMessage Message MessageM essa geMe ssa geMe ssageM essageM  
               ssageM essageMe ssa ge Mess age Mes sageMe ssageMessageMes sageMess age Messa geMessag eMe ssageMessag eMessa
               geMessag eMessage Message MessageM essa geMe ssa geMe ssageM essageM  ssageM essageMe ssa ge Mess age Mes sageMe ssageMessageMes sageMess age
@@ -39,7 +46,7 @@
               </svg>
             </div>
           </div>
-          <div class="m-4 mt-4 mr-12 rounded-md bg-blue-800 p-2 text-sm text-white">
+          <div class="md:m-4 ld:m-4 ml-2 mt-4 md:mr-12 lg:mr-12 mr-5 rounded-md bg-blue-800 p-2 md:text-sm lg:text-sm text-xs text-white">
             <p>Messa geMessag eMe ssageMessag eMessa geMessag eMessage Message MessageM essa geMe ssa geMe 
               ssageM essageM  ssageM essageMe ssa ge Mess age Mes sageMe ssageMessageMes sageMess age Messa
                geMessag eMe ssageMessag eMessa geMessag eMessage Message MessageM essa geMe ssa geMe ssageM
@@ -48,7 +55,7 @@
                   <p>20:00 </p>
                 </div>
           </div>
-           <div class="m-4 mt-4 ml-12  rounded-md bg-lime-800 p-2 text-sm text-white">
+           <div class="md:m-4 ld:m-4 mr-2 mt-4 md:ml-12 lg:ml-12 ml-5  rounded-md bg-lime-800 p-2 md:text-sm lg:text-sm text-xs text-white">
             <p>Messa geMessag eMe ssageMessag eMessa geMessag eMessage Message MessageM essa geMe ssa geMe
                ssageM essageM  ssageM essageMe ssa ge Mess age Mes sageMe ssageMessageMes sageMess age Messa 
                geMessag eMe ssageMessag eMessa geMessag eMessage Message MessageM essa geMe ssa geMe ssageM 
@@ -68,7 +75,7 @@
                   </svg>
                 </div>
           </div>
-           <div class="m-4 mt-4 mr-12 rounded-md bg-blue-800 p-2 text-sm text-white">
+           <div class="md:m-4 ld:m-4 ml-2 mt-4 md:mr-12 lg:mr-12 mr-5 rounded-md bg-blue-800 p-2 md:text-sm lg:text-sm text-xs text-white">
             <p>Messa geMessag eMe ssageMessag eMessa geMessag eMessage Message MessageM essa
                geMe ssa geMe ssageM essageM  ssageM essageMe ssa ge Mess age Mes sageMe ssageMes
                sageMes sageMess age Messa geMessag eMe ssageMessag eMessa geMessag eMessage Messa
@@ -79,7 +86,7 @@
               <p>20:00 </p>
             </div>
           </div>
-           <div class="m-4 mt-4 ml-12  rounded-md bg-green-800 p-2 text-sm text-white">
+           <div class="md:m-4 ld:m-4 mr-2 mt-4 md:ml-12 lg:ml-12 ml-5  rounded-md bg-green-800 p-2 md:text-sm lg:text-sm text-xs text-white">
             <p>Messa geMessag eMe ssageMessag eMessa geMessag eMessage Message MessageM essa 
               geMe ssa geMe ssageM essageM  ssageM essageMe ssa ge Mess age Mes sageMe ssageMessageMes
                sageMess age Messa geMessag eMe ssageMessag eMessa geMessag eMessage Message MessageM 
@@ -103,7 +110,7 @@
           </div>
         </div>
         <div class="w-full bg-green-200 flex">
-            <input class="w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+            <input class="w-full md:p-2 lg:p-2 p-1 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7">
               <path stroke-linecap="round" stroke-linejoin="round" d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />
             </svg>
