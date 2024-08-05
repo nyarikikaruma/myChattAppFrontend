@@ -11,7 +11,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        custom: ['Arial'],
+        custom: ['Inter'],
       },
     },
   },
